@@ -1,0 +1,28 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Titles */
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Highlight active link in navigation */
+.nav-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Video styling */
+video {
+  border: 5px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #004085;
+  border-color: #003769;
+}

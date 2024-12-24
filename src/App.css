@@ -1,0 +1,163 @@
+
+/* Body styling with gradient background */
+body {
+  font-family: 'Roboto', sans-serif; /* Use Google Fonts for a modern look */
+  color: #444;
+  background: linear-gradient(120deg, #ece9e6, #ffffff); /* Light gradient */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styling with gradient and shadow */
+header {
+  background: linear-gradient(90deg, #4a148c, #1e88e5);
+  color: #fff;
+  padding: 1rem 0;
+  border-bottom: 4px solid #ffc107;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+header .nav-link {
+  color: #ffc107;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 0 1rem;
+  display: inline-block;
+  transition: color 0.3s, transform 0.3s;
+}
+
+header .nav-link:hover {
+  color: #ffeb3b;
+  transform: translateY(-2px);
+  text-decoration: underline;
+}
+
+/* Section styling with soft shadows and rounded corners */
+section {
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 15px;
+  background: #fff;
+  max-width: 900px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Different section backgrounds */
+#aboutTheProject {
+  background: #f7f7f7;
+}
+
+#demo {
+  background: #e3f2fd;
+}
+
+#download {
+  background: linear-gradient(45deg, #719ae0, #7b7b7c);
+  color: #fff;
+}
+
+/* Section titles with gradients */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background: linear-gradient(90deg, #4a148c, #1e88e5);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Image Slider Container */
+.image-slider {
+  position: relative;
+  width: 70%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slide */
+.slide {
+  min-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Navigation Buttons */
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+/* Button styling with a sleek hover effect */
+.btn-primary {
+  background: #4a148c;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: #464545;
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(30, 136, 229, 0.5);
+}
+
+/* Footer with subtle background */
+footer {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  background: #4a148c;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* Smooth scrolling for navigation */
+html {
+  scroll-behavior: smooth;
+}
