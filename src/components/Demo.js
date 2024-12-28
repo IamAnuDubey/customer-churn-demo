@@ -1,22 +1,4 @@
-/*import React from "react";
 
- const Demo = () => {
-    return(
-        <section id="demo" class="py-5 bg-light">
-            <h2 class="text-center mb-4">Project Output</h2>
-            <div class="text-center">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            </div>
-        </section>
-    );
- };
- export default Demo;*/
  import React, { useState } from "react";
 
 
@@ -38,6 +20,7 @@ const Demo = () => {
   };
 
   return (
+    <section id="demo" class="py-5 bg-light">
     <div className="image-slider">
       <button className="prev" onClick={() => changeSlide(-1)}>
         &#10094;
@@ -57,8 +40,10 @@ const Demo = () => {
         &#10095;
       </button>
     </div>
+    </section>
   );
 };
 
 export default Demo;
+
 

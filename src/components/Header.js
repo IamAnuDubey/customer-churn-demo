@@ -11,6 +11,9 @@ const Header = () => {
                         <a class="nav-link text-white" href="#about">About the Project</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#aboutalgorithms">About Algorithms</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-white" href="#demo">Project Output</a>
                     </li>
                     <li class="nav-item">
