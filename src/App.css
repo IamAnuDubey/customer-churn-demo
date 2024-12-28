@@ -1,9 +1,9 @@
 
 /* Body styling with gradient background */
 body {
-  font-family: 'Roboto', sans-serif; /* Use Google Fonts for a modern look */
+  font-family: 'Roboto', sans-serif;
   color: #444;
-  background: linear-gradient(120deg, #ece9e6, #ffffff); /* Light gradient */
+  background: linear-gradient(120deg, #ece9e6, #ffffff); 
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -148,17 +148,6 @@ button.next {
   background: #464545;
   transform: scale(1.1);
   box-shadow: 0px 4px 10px rgba(30, 136, 229, 0.5);
-}
-
-/* Footer with subtle background */
-footer {
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-  padding: 1rem;
-  background: #4a148c;
-  color: #fff;
-  margin-top: 2rem;
 }
 
 /* Smooth scrolling for navigation */
