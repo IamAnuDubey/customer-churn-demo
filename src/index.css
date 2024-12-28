@@ -15,12 +15,6 @@ h2 {
   font-weight: bold;
 }
 
-/* Video styling */
-video {
-  border: 5px solid #ddd;
-  border-radius: 8px;
-}
-
 /* Button hover effect */
 .btn-primary:hover {
   background-color: #004085;
